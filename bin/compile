@@ -13,7 +13,7 @@ mkdir -p $1/.bundle
 echo "---
 echo $1
 
-BUNDLE_BUILD__RGEO: --with-geos-dir=$1/lib --with-proj-dir=$1/lib
+BUNDLE_BUILD__RGEO: --with-geos-dir=/app/lib --with-proj-dir=/app/lib
 BUNDLE_PATH: vendor/bundle
 BUNDLE_BIN: vendor/bundle/bin
 BUNDLE_WITHOUT: development:test
